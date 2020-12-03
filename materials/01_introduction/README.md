@@ -60,7 +60,7 @@
   7. 🏃 Klikneme pravym tlacitkem mysi na zalozku se jmenem souboru a spustime ho
   8. 👇 Na spodu se vysune karta s dokoncenym interpretovanim naseho zapisu.
 
-<details>
+</details>
 
 ---
 
