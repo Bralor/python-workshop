@@ -1,4 +1,4 @@
-### Welcome to the workshop by [Engeto](https://engeto.cz/) 👋
+### Welcome to the Python workshop by [Engeto](https://engeto.cz/) 👋
 <br />
 
 <p align="center">
@@ -30,14 +30,14 @@ The best place is the official website
 ---
 
 ### 🗒 Lessons
-1. [Introduction](https://github.com/Bralor/python-academy/tree/lekce01)
-2. [Conditions](https://github.com/Bralor/python-academy/blob/lekce02/README.md)
-3. [Dictionaries & sets](https://github.com/Bralor/python-academy/tree/lekce03)
-4. [While loop](https://github.com/Bralor/python-academy/tree/lekce04)
-5. [For loop](https://github.com/Bralor/python-academy/tree/lekce05)
-6. [Functions, basics](https://github.com/Bralor/python-academy/tree/lekce06)
-8. [Text files](https://github.com/Bralor/python-academy/tree/lekce08)
-10. [Importing, modules & packages](https://github.com/Bralor/python-academy/tree/lekce10)
+1. [Introduction](https://github.com/Bralor/python-workshop/tree/mh-dev/materials/01_introduction)
+2. [Conditions](https://github.com/Bralor/python-workshop/tree/mh-dev/materials/02_conditions)
+3. [Dictionaries & sets]()
+4. [While loop](https://github.com/Bralor/python-workshop/tree/mh-dev/materials/03_loops)
+5. [For loop]()
+6. [Functions, basics]()
+8. [Text files]()
+10. [Importing, modules & packages]()
 11. [Networking]()
 12. [gui in Python]()
 ---
