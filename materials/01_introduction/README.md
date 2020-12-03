@@ -77,6 +77,7 @@
   type(1234) # overeni
   ```
 ---
+
 </details>
 
 <details>
@@ -95,6 +96,7 @@
   type(0.3)  # overeni
   ```
 ---
+
 </details>
 
 <details>
@@ -111,7 +113,6 @@
   10 ** 3   # umocnovani
   ```
 ---
-</details>
 
 </details>
 
