@@ -14,9 +14,7 @@
 6. Kontejnerove datove typy
 7. Vstupy & vystupy
 8. Boolean & logicke operatory
-9. Logicke operatory
-10. Podminkovy zapis, obecne
-11. Podminkovy zapis, upravujeme program
+9. Podminkovy zapis
 
 ---
 
@@ -416,12 +414,13 @@
   bool([])          # False
   bool([" "])       # True
   ```
+---
 
 </details>
 
 <details>
   <summary>📍 Logicke operatory</summary>
-  
+
   #### 💻 Vypis logickych operatoru
   S boolean hodnotami souvisi pouziti logickych operatoru:
   1. `and`
