@@ -8,15 +8,16 @@
 ### 🗒  Obsah lekce
 1. Uzitecne odkazy
 2. Ukazka ulohy
-3. Ciselne a textove hodnoty
-4. Promenne
-5. Kontejnerove datove typy
-6. Vkladame udaje
-7. Vystup programu
-8. Typ boolean
+3. Pracovni prostredi
+4. Ciselne a textove hodnoty
+5. Promenne
+6. Kontejnerove datove typy
+7. Vstupy & vystupy
+8. Boolean & logicke operatory
 9. Logicke operatory
 10. Podminkovy zapis, obecne
 11. Podminkovy zapis, upravujeme program
+
 ---
 
 <details>
@@ -47,19 +48,41 @@
 ---
 
 <details>
+  <summary>🔨 Pracovni prostredi</summary>
+
+  #### ⚒ Jak pracovat s Pythonem
+  1. ⏯ [PyCharm community edition](https://www.jetbrains.com/help/pycharm/quick-start-guide.html)
+  2. ➕ Klikneme na novy projekt
+  3. 🏘 Vybereme adresar **python_akademie**, vybere interpreta Pythonu (3.8+)
+  4. 📁 Vytvorime adresar pro druhou lekci **lekce02**
+  5. 🐍 Vytvorime novy soubor **prvni_pokus** (pripona `.py`)
+  6. ✏  Na prvni radek napiseme `print("Muj prvni lokalni Python soubor!")`
+  7. 🏃 Klikneme pravym tlacitkem mysi na zalozku se jmenem souboru a spustime ho
+  8. 👇 Na spodu se vysune karta s dokoncenym interpretovanim naseho zapisu.
+
+<details>
+
+---
+
+<details>
   <summary>🔜 Ciselne a textove hodnoty</summary>
 
 <details>
-  <summary>🔢 Cisla</summary>
+  <summary>🔢 Cela cisla</summary>
 
-  #### ✌ Cela cisla(integers)
+  #### ☝ K zapamatovani (integers)
   ```python
   100 + 200  # 300
   300 - 100  # 200
   type(1234) # overeni
   ```
+---
+</details>
 
-  #### 💲 Desetinna cisla(floats)
+<details>
+  <summary>💲 Desetinna cisla</summary>
+
+  #### ☝  K zapamatovani (floats)
   **Pozor!** Desetinnym oddelovacem je tecka. Carka slouzi k jinym ucelum.
   ```python
   0.1 + 0.3  # 0.4
@@ -71,8 +94,13 @@
   0.1 + 0.2  # 0.30000000000000004
   type(0.3)  # overeni
   ```
+---
+</details>
 
-  #### 💹 Aritmeticke operace
+<details>
+  <summary>💹 Aritmeticke operace</summary>
+
+  #### ☝ K zapamatovani
   ```python
   10 + 5    # 15
   10 - 5    # 5
@@ -83,11 +111,12 @@
   10 ** 3   # umocnovani
   ```
 ---
+</details>
 
 </details>
 
 <details>
-  <summary>🔡 Text</summary>
+  <summary>🔡 Textove hodnoty</summary>
 
   #### 🆎 Retezce(strings)
   Ruzne dlouhe uskupeni znaku (cisla, pismena, specialni symboly), ohranicene
@@ -103,7 +132,6 @@
   '''Matous
   Holinka'''        # 'Matous\nHolinka'
   ```
-
 ---
 
 </details>
@@ -156,9 +184,9 @@
   <summary>📬 Kontejnerove datove typy</summary>
 
 <details>
-  <summary>📑 Seznam(list)</summary>
+  <summary>📑 Seznam</summary>
 
-  #### ☝ K zapamatovani
+  #### ☝ K zapamatovani (list)
   - tvoreny hranatymi zavorkami
   - udaje oddelene _carkou_ (ucel carky je tedy datovy oddelovac)
   - muzeme pridavat a odebirat udaje (_zmenitelna_ posloupnost)
@@ -179,18 +207,18 @@
   ```
   Indexovani umoznuje najit hodnotu pomoci jejiho indexu:
   ```python
-  MESTA[0]  # vrati udaj s indexem 0 (prvni hodnotu v zavorkach)
-  MESTA[-1] # vrati udaj s indexem -1 (posledni hodnota)
-  MESTA[1]  # vrati udaj s indexem 1 (druha hodnota)
+  MESTA[0]      # vrati udaj s indexem 0 (prvni hodnotu v zavorkach)
+  MESTA[-1]     # vrati udaj s indexem -1 (posledni hodnota)
+  MESTA[1]      # vrati udaj s indexem 1 (druha hodnota)
   ```
 ---
 
 </details>
 
 <details>
-  <summary> 🤕 Ntice(tuple)</summary>
+  <summary> 🤕 Ntice</summary>
 
-  #### ☝ K zapamatovani
+  #### ☝ K zapamatovani (tuple)
   - tvoreny kulatymi zavorkami
   - udaje oddelene _carkou_ (ucel carky je tedy datovy oddelovac)
   - **nemuzeme** pridavat a odebirat udaje (_nezmenitelna_ posloupnost)
@@ -211,9 +239,9 @@
   ```
   Indexovani umoznuje najit hodnotu pomoci jejiho indexu:
   ```python
-  CENY[0]  # vrati udaj s indexem 0 (prvni hodnotu v zavorkach)
-  CENY[-1] # vrati udaj s indexem -1 (posledni hodnota)
-  CENY[1]  # vrati udaj s indexem 1 (druha hodnota)
+  CENY[0]       # vrati udaj s indexem 0 (prvni hodnotu v zavorkach)
+  CENY[-1]      # vrati udaj s indexem -1 (posledni hodnota)
+  CENY[1]       # vrati udaj s indexem 1 (druha hodnota)
   ```
 
 </details>
@@ -224,7 +252,7 @@
 
 
 <details>
-  <summary>🗣 Vkladame udaje</summary>
+  <summary>🗣 Vstupy & vystupy</summary>
 
 <details>
   <summary>👋 Nejprve uvod</summary>
@@ -232,11 +260,14 @@
   #### 🛠 S cim budeme pracovat
   Nejprve potrebujeme promenne:
   ```python
-  """Lekce #1 - Uvod do programovani, Destinatio, cast 1."""
+  #!/usr/bin/python3
+  """Lekce #01 - Uvod do programovani, Destinatio"""
 
-  MESTA = ["Praha", "Viden", "Olomouc", "Svitavy", "Zlin", "Ostrava"]
+  AKT_ROK = 2020
+  SLEVY = ("Olomouc", "Svitavy")
   CENY = (150, 200, 120, 120, 100, 180)
   ODDELOVAC = "==================================="
+  MESTA = ["Praha", "Viden", "Olomouc", "Svitavy", "Zlin", "Ostrava"]
   ```
 
   #### 🖨  Vypiseme pozdrav
@@ -325,10 +356,6 @@
 
 </details>
 
-</details>
-
----
-
 <details>
   <summary>👥 Vystup programu</summary>
 
@@ -351,12 +378,17 @@
 
 </details>
 
+</details>
+
 ---
+
+<details>
+  <summary> 👌 Boolean & logicke operatory</summary>
 
 <details>
   <summary>📘 Datovy typ boolean</summary>
 
-  #### ☝ K zapamatovani
+  #### ☝ K zapamatovani (boolean)
   - specialni datovy typ spadajici pod _integer_
   - ciselne hodnoty **1** a **0**
   - hodnoty **True** a **False**
@@ -409,17 +441,23 @@
   ```
 </details>
 
+</details>
+
 ---
 
 <details>
-  <summary>👉 Podminkovy zapis, obecne</summary>
+  <summary>👉 Podminkovy zapis</summary>
 
-  #### ☝ K zapamatovani
-  Podminkovy zapis obsahuje:
+<details>
+  <summary>⚙  Obecny zapis</summary>
+
+  #### ☝ K zapamatovani (conditional statement)
   1. `if` klicovy vyraz
   2. `bool()` overovany vyraz
   3. `:` zahlavi zakoncene dvojteckou
   4. odsazeny odstavec instrukci
+  5. `else` podminkovou vetev
+  6. `elif` podminkovou vetev
 
   #### 🎨 Jak vypada podminkovy zapis
   ```python
@@ -427,19 +465,16 @@
   Y = 15_000
 
   if X < Y:
-    print("Ano, to je pravda!")
+      print("Ano, to je pravda!")
   else:
-    print("Ne, toto neni pravda!")
+      print("Ne, toto neni pravda!")
   ```
   **control-flow** ve vzoru vyse je jednoduchy podminkovy zapis slozeny
   z dvou moznych scenaru.
 
-</details>
-
 ---
 
-<details>
-  <summary>🔂 Podminkovy zapis, upravujeme program</summary>
+</details>
 
 <details>
   <summary>🔢 Platne cislo lokality</summary>
@@ -661,8 +696,5 @@
 
 ---
 
-➡ [pokracovat na treti lekci](https://github.com/Bralor/python-academy/tree/lekce03)
-
-
-➡ [pokracovat na druhou lekci](https://github.com/Bralor/python-academy/tree/lekce02)
+➡ [pokracovat na druhou cast]()
 
