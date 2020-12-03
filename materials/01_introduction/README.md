@@ -419,8 +419,6 @@
 
 </details>
 
----
-
 <details>
   <summary>📍 Logicke operatory</summary>
   
