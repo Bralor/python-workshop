@@ -134,6 +134,8 @@
   filmovy_slovnik = {}      # 1. zpusob
   filmovy_slovnik = dict()  # 2. zpusob
   ```
+  [**Odkaz**](https://repl.it/@JustBraloR/dictionaries#main.py) pro spusteni
+
 ---
 
 </details>
@@ -175,7 +177,6 @@
   filmovy_slovnik["1_slovnik"] = vnoreny_slovnik_1
   filmovy_slovnik["2_slovnik"] = vnoreny_slovnik_2
   ```
-  [**Odkazy**](https://repl.it/@JustBraloR/dictionaries#main.py) pro spusteni
 
   Doplnime nase slovniky `film_1`, `film_2`, `film_3` a `film_4` do slovniku
   `filmovy_slovnik`:
