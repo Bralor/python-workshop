@@ -155,7 +155,7 @@
 
   print(f"{x=}; {x}=10, podminka neni pravdiva, pokracuje kod pod smyckou!")
   ```
-  [**Odkaz**](https://repl.it/@JustBraloR/whileloopexample#main.py) pro spusteni
+  [**Odkaz**](https://repl.it/@JustBraloR/whileloopexample#main.py){:target="_blank"} pro spusteni
 
 </details>
 
