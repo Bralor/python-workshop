@@ -174,6 +174,7 @@
   MNOZSTVI = 2        # <class 'int'>
   CENA = 1000.5       # <class 'float'>
   ```
+  [**Odkaz**](https://repl.it/@JustBraloR/variables#main.py) pro spusteni
 
 </details>
 
@@ -210,6 +211,8 @@
   MESTA[-1]     # vrati udaj s indexem -1 (posledni hodnota)
   MESTA[1]      # vrati udaj s indexem 1 (druha hodnota)
   ```
+  [**Odkaz**](https://repl.it/@JustBraloR/listindexing#main.py) pro spusteni
+
 ---
 
 </details>
@@ -242,6 +245,7 @@
   CENY[-1]      # vrati udaj s indexem -1 (posledni hodnota)
   CENY[1]       # vrati udaj s indexem 1 (druha hodnota)
   ```
+  [**Odkaz**](https://repl.it/@JustBraloR/tupleindexing#main.py) pro spusteni
 
 </details>
 
@@ -309,9 +313,10 @@
   #### ☺ Jak ulozit vstupy
   Pomoci dalsi funkce, `input`, muzeme udaje do naseho programu ulozit:
   ```python
-  jmeno = input("ZAPIS SVOJE JMENO: ")
+  jmeno = input("ZAPIS SVOJE JMENO:")
   print(jmeno, type(jmeno))
   ```
+  [**Odkaz**](https://repl.it/@JustBraloR/input#main.py) pro spusteni
 
   #### ☝ Jake udaje
   1. vyber lokality
@@ -414,6 +419,8 @@
   bool([])          # False
   bool([" "])       # True
   ```
+  [**Odkaz**](https://repl.it/@JustBraloR/bool#main.py) pro spusteni
+
 ---
 
 </details>
@@ -437,6 +444,7 @@
   bool(False or True)       # True
   bool(False or False)      # False
   ```
+  [**Odkaz**](https://repl.it/@JustBraloR/logicaloperators-1#main.py) pro spusteni
 </details>
 
 </details>
@@ -467,6 +475,8 @@
   else:
       print("Ne, toto neni pravda!")
   ```
+  [**Odkaz**](https://repl.it/@JustBraloR/conditionalstatement#main.py) pro spusteni
+
   **control-flow** ve vzoru vyse je jednoduchy podminkovy zapis slozeny
   z dvou moznych scenaru.
 
@@ -491,6 +501,7 @@
   PISMENA = ["a", "b", "c"]; len(PISMENA) # 3
   JMENO = "Matous"; len(JMENO)            # 6
   ```
+  [**Odkaz**](https://repl.it/@JustBraloR/len#main.py) pro spusteni
 
   #### ⏹ Ukonceni programu
   Pro ukonceni beziciho programu mame tyto moznosti:
@@ -529,6 +540,7 @@
   bool("Marek" in JMENA)  # True
   bool("Tomas" in JMENA)  # False
   ```
+  [**Odkaz**](https://repl.it/@JustBraloR/membershiptesting#main.py) pro spusteni
 
   #### 🆕 Nova cena
   Pokud je cilova lokalita mezi zlevnenymi, vypocitej novou cenu:
@@ -665,6 +677,7 @@
   ```python
   heslo = "abcdefgh";heslo.isalpha()
   ```
+  [**Odkaz**](https://repl.it/@JustBraloR/stringmethods#main.py) pro spusteni
 
   #### 🤼 Zkombinujeme vse
   ```python
