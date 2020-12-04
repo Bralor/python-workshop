@@ -174,6 +174,7 @@
   MNOZSTVI = 2        # <class 'int'>
   CENA = 1000.5       # <class 'float'>
   ```
+  [**Odkaz** pro spusteni](https://repl.it/@JustBraloR/variables#main.py)
 
 </details>
 
