@@ -22,7 +22,6 @@
   - [\_\_init\_\_.py](https://pythontips.com/2013/07/28/what-is-__init__-py/)
   - [Walrus operator, dokumentace](https://realpython.com/lessons/assignment-expressions/)
   - [Python.org, hledani modulu](https://docs.python.org/3/tutorial/modules.html#the-module-search-path)
-  - [Predpis, if \_\_name\_\_ == '\_\_main\_\_'](https://www.geeksforgeeks.org/what-does-the-if-__name__-__main__-do/)
   - [Pycharm importing](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html)
 
 </details>
