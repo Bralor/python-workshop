@@ -22,7 +22,6 @@
   - [\_\_init\_\_.py](https://pythontips.com/2013/07/28/what-is-__init__-py/)
   - [Walrus operator, dokumentace](https://realpython.com/lessons/assignment-expressions/)
   - [Python.org, hledani modulu](https://docs.python.org/3/tutorial/modules.html#the-module-search-path)
-  - [Predpis, if \_\_name\_\_ == '\_\_main\_\_'](https://www.geeksforgeeks.org/what-does-the-if-__name__-__main__-do/)
   - [Pycharm importing](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html)
 
 </details>
@@ -306,68 +305,6 @@
    7. `Terminal` dole na liste pro export zavislosti (`pip3 freeze > requirements.txt`)
 
 ---
-
-</details>
-
-<details>
-   <summary>🆕 Name == main</summary>
-
-   #### 🥅 Motivace
-   Po nahrani modulu nechceme spustit cely jeho obsah. Chceme vyuzit jeho
-   funkcionalitu jednu po druhe.
-
-   #### ❗ Nevhodna syntaxe
-   Pokud bezne spoustime soubor `py` do promenne `__name__` ulozime hodnotu
-   jmeno souboru:
-   ```python
-   def hlavni():
-       print("Spoustim hlavni funkci()")
-       print("Volani prvni funkce...")
-       funkce_1()
-       print("Volani druhe funkce...")
-       funkce_2()
-       print("Volani treti funkce...")
-       funkce_3()
-
-
-   def funkce_1():
-       print("Spousteni prvni funkce...")
-
-
-   def funkce_2():
-       print("Spousteni druhe funkce...")
-
-
-   def funkce_3():
-       print("Spousteni treti funkce...")
-
-
-   hlavni()
-   ```
-   [**Odkaz**](https://repl.it/@JustBraloR/runningnamemain#main.py) pro spusteni
-
-   **Pozor!** Toto neni zadouci, pokud chceme soubor pouze nahrat. Vyzkousime
-   soubor nahrat primo v interpretu.
-
-   #### ✅ Vhodna syntaxe
-   Pokud piseme kod do souboru, ktery budeme chtit potencialne pouzivat pozdeji
-   (modul), pouzijeme:
-   ```python
-   if __name__ == "__main__":
-       hlavni()
-   ```
-   Diky takovemu predpisu porad plati: `__name__ == "<jmeno_souboru>"`. Ale
-   soucasne pri nahrani z jineho modulu `__name__ == "__main__"`:
-   ```python
-   if __name__ == "__main__":
-       print("Spousteni pres importovani")
-       hlavni()
-   else:
-       print("Naimportovano!")
-   ```
-
-</details>
-
 
 </details>
 
