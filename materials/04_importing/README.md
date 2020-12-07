@@ -8,7 +8,7 @@
 ### 🗒 Obsah lekce
 1. Uzitecne odkazy
 2. Ukazka ulohy
-3. Moduly/baliky
+3. Moduly & baliky
 4. Importovani
 5. Knihovny standartni/tretich stran
 ---
@@ -62,7 +62,7 @@
 
    pprint.pprint(UDAJE)
    ```
-   [**Odkaz**](https://repl.it/@JustBraloR/importing#main.py)
+   [**Odkaz**](https://repl.it/@JustBraloR/importing#main.py) pro spusteni
 
 ---
 
@@ -77,11 +77,11 @@
    3. Baliky obsahuji `__init__.py`
    4. Baliky obsahuji `__pycache__`
 
-   #### Soubor init
+   #### 🔍 Soubor init
    Tento, dost casto prazdny, soubor umoznuje interpretu najit & nahrat moduly.
    Pokud neni prazdny, obsahuje dokumentace, zavislosti, aj.
 
-   #### Slozka pycache
+   #### ⏩ Slozka pycache
    Tato slozka vznika, kdyz spoustime kod a interpret jej zkompiluje
    na _bytecode_. Nasledne schova zkompilovany kod do tohoto adresare.
 
@@ -99,13 +99,12 @@
 
 </details>
 
+</details>
+
 ---
 
 <details>
    <summary>📥 Importovani</summary>
-
-<details>
-   <summary>🎿 Proces nahravani</summary>
 
    #### ☝ K zapamatovani
    Predpis pro nahrani modulu/baliku ma svoje pravidla:
@@ -123,9 +122,9 @@
    6. Pokud **nenasel** -> `ModuleNotFound`
    7. Pokud **nasel** -> nahravam modul, prip. balik
 
----
-
 </details>
+
+---
 
 <details>
    <summary>🗂 Rozdeleni podle puvodu</summary>
@@ -139,13 +138,14 @@
 
 ---
 </details>
-   
+
 <details>
    <summary>👾 Knihovny tretich stran</summary>
 
    #### ☝ K zapamatovani
    Protoze je knihoven pro Python spousta, nektere je potreba doinstalovat rucne.
 
+<br />
 <p align="center">
   <img alt="terminal-icon" width="80px" src="https://cubiclenate.files.wordpress.com/2018/04/terminal-icon.png?w=286&h=286" />
 </p>
@@ -183,7 +183,7 @@
    pip3 install -r requirements.txt
    ```
 
-
+<br />
 <p align="center">
   <img alt="pycharm-icon" width="80px" src="https://caktus-website-production-2015.s3.amazonaws.com/media/blog-images/logo.png" />
 </p>
@@ -196,6 +196,8 @@
    5. ⚙ `Add...` Pridat prostredi/pouzit stavajici
    6. ➕ Instalovat knihovny pomoci symbolu `+` dole pod nabidkou
    7. `Terminal` dole na liste pro export zavislosti (`pip3 freeze > requirements.txt`)
+
+---
 
 </details>
 
@@ -264,3 +266,4 @@
 ---
 
 ➡ [pokracovat k dalsi casti](https://github.com/Bralor/python-workshop/tree/master/materials/05_functions_and_text_files)
+
