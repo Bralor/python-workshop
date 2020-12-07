@@ -304,7 +304,7 @@
    6. ➕ Instalovat knihovny pomoci symbolu `+` dole pod nabidkou
    7. `Terminal` dole na liste pro export zavislosti (`pip3 freeze > requirements.txt`)
 
----
+</details>
 
 </details>
 

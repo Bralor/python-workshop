@@ -478,5 +478,5 @@
 
 ---
 
-➡ [pokracovat k dalsi casti]()
+➡ [pokracovat k dalsi casti](https://github.com/Bralor/python-workshop/tree/master/materials/04_importing)
 
