@@ -1,4 +1,4 @@
-➡ [vratit se na uvod lekci](https://github.com/Bralor/python-workshop/tree/mh-dev)
+➡ [vratit se k uvodni casti](https://github.com/Bralor/python-workshop/tree/master)
 
 <p align="center">
   <img alt="engeto-logo" width="100px" src="https://engeto.cz/wp-content/uploads/2019/01/engeto-square.png" />
@@ -707,5 +707,5 @@
 
 ---
 
-➡ [pokracovat na druhou cast]()
+➡ [pokracovat na druhou cast](https://github.com/Bralor/python-workshop/tree/master/materials/02_dicts_and_sets)
 
