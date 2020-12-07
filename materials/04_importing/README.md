@@ -10,7 +10,7 @@
 2. Ukazka ulohy
 3. Moduly & baliky
 4. Importovani
-5. Knihovny standartni/tretich stran
+5. Rozdeleni podle puvodu
 ---
 
 
@@ -18,9 +18,12 @@
   <summary>☝ Uzitecne odkazy</summary>
 
   #### 🗒 Dulezite odkaz
-  - [Python Academy, Engeto](https://engeto.com/)
-  - [Python Academy, Engeto](https://engeto.com/)
+  - [Instalator balicku, pip3](https://pypi.org/project/pip/)
+  - [\_\_init\_\_.py](https://pythontips.com/2013/07/28/what-is-__init__-py/)
   - [Walrus operator, dokumentace](https://realpython.com/lessons/assignment-expressions/)
+  - [Python.org, hledani modulu](https://docs.python.org/3/tutorial/modules.html#the-module-search-path)
+  - [Predpis, if \_\_name\_\_ == '__main__'](https://www.geeksforgeeks.org/what-does-the-if-__name__-__main__-do/)
+  - [Pycharm importing](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html)
 
 </details>
 
@@ -41,6 +44,83 @@
 
 <details>
    <summary>📦 Moduly & baliky</summary>
+
+<details>
+   <summary>💾 Uvod hry</summary>
+
+   #### 🎮 Obesenec
+   1. Pomocna promenna `SLOVO` (konstanta)
+   2. Pomocna promenna `tajenka` (podtrzitka misto pismen)
+   3. Pomocna promenna `zivoty` (hodnota = `7`)
+   4. Pomocna promenna `hra_probiha` (hodnota = `True`)
+
+   <br />
+   ```python
+   #!/usr/bin/python3
+
+
+   SLOVO = "obesenec"
+   tajenka = len(SLOVO) * ["_"]
+   zivoty = 7
+   hra_probiha = True
+   ```
+
+---
+
+</details>
+
+<details>
+   <summary>♻ Prubeh kol</summary>
+
+   #### 🔚 Kdy hra konci
+   1. Dokud ma hrac v promenne `zivoty` hodnotu vetsi jak `0`
+   2. Nasledne zastavime prubeh pomoci `hra_probiha`
+
+   <br />
+   ```python
+   while hra_probiha and zivoty > 0:
+       ...
+   else:
+       if not hra_probiha:
+           print(f"Tajenka: {SLOVO}")
+           print("Super! Vitezis, jsi frajer kurzu!")
+       else:
+           print(f"Bohuzel, prohrals. Hledane slovo: *{SLOVO}*")
+   ```
+
+   #### 👀 V kazdem kole
+   1. Vypisu stav hry
+   2. Necham hrace zadat pismeno/slovo (promenna `hadani`)
+   3. Sestavime vhodne podminky
+
+   <br />
+   ```python
+   print(f"TAJENKA: {' '.join(tajenka)}, ZIVOTY: {zivoty}")
+   hadani = input("Hadej pismeno nebo cele slovo:").lower()
+
+   if hadani == SLOVO:
+       hra_probiha = False
+
+   elif len(hadani) == 1 and hadani in SLOVO:
+       for index, pismeno in enumerate(SLOVO):
+           if pismeno == hadani:
+               tajenka[index] = hadani
+       if "_" not in tajenka:
+           hra_probiha = False
+
+   else:
+       zivoty -= 1
+   ```
+
+   #### ❓ Konec nebo ne
+   Hra nam funguje. Co bychom mohli zlepsit?
+       1. Vice hadanych slov
+       2. Nahodny vyber slova
+       3. Cistejsi vypis
+
+---
+
+</details>
 
 <details>
    <summary>⚙ Moduly</summary>
@@ -135,6 +215,41 @@
    #### ☝ K zapamatovani
    Nainstalujeme jazyk, interpret a tyto knihovny. Nemusim instalovat, staci
    nahrat a pouzivat.
+
+   #### ❓Modul random
+   1. Pokud vyzadujeme vyuziti prvku pseudo-nahody, pouzijeme standartni modul
+   `random`, dale doplnime seznam s vice slovy:
+   ```python
+   import random
+
+   SLOVA = ["obesenec", "autobus", "klavesnice", "nedele"]
+   ```
+   <br />
+   2. Vybereme vhodnou funkci pro selekci nahodne udaje ze sekvence dat:
+   ```python
+   slovo = random.choice(SLOVA)
+   ```
+
+   #### 🕺 Vlastni modul
+   1. Spolecne si nahrajeme nas vlastni modul `figurka`
+   2. Pouzijeme slovnik `hangman` uvnitr souboru
+   3. Doplnime vypis v kazdem kole a pri prohre
+   ```python
+   import figurka
+
+
+   print(figurka.hangman[7 - zivoty])
+   ```
+
+   #### 📺 Modul os
+   1. Protoze je nase hra prilis upovidana, nahrajeme dalsi standartni modul,
+   ktery nam pomuze udrzet vystup mene upovidany
+   2. Aplikujeme funkci, pro strucny vystup ve vypisu a v zaveru
+   ```python
+   import os
+
+   os.system("clear")
+   ```
 
 ---
 </details>
