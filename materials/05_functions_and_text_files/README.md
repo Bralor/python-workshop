@@ -179,7 +179,7 @@
     - `mode` - rezim, jak chceme soubor zpracovat ( **r**ead, **w**rite, **a**ppend)
     - `encoding` - volitelne (ruzne soubory, ruzne kodovani). Idealne: `utf8`
 
-  4. Pro nacteni obsahu pouzijeme jednu z metod:
+  3. Pro nacteni obsahu pouzijeme jednu z metod:
     - `read` - nacteme cely obsah jako `str`
     - `readline` - nacteme pouze prvni radek
     - `readlines` - nacteme jako `list`, obsah rozdelime pomoci `\n`
@@ -187,7 +187,7 @@
   obsazeny_text = soubor_se_slovy.readlines()
   ```
 
-  5. Nakonec musime otevreny soubor zavrit pomoci metody `close`
+  4. Nakonec musime otevreny soubor zavrit pomoci metody `close`
   ```python
   soubor_se_slovy = open(jmeno_souboru, mode="r", encoding="utf8")
   obsazeny_text = soubor_se_slovy.read()
@@ -286,4 +286,3 @@
 
 ---
 
-➡ [pokracovat k dalsi casti]()

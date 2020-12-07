@@ -1,4 +1,4 @@
-➡ [vratit se k prvni casti](https://github.com/Bralor/python-workshop/tree/mh-dev/materials/01_introduction)
+➡ [vratit se k prvni casti](https://github.com/Bralor/python-workshop/tree/master/materials/01_introduction)
 
 <p align="center">
   <img alt="engeto-logo" width="100px" src="https://engeto.cz/wp-content/uploads/2019/01/engeto-square.png" />
@@ -570,5 +570,5 @@
 
 ---
 
-➡ [pokracovat na treti cast]()
+➡ [pokracovat na treti cast](https://github.com/Bralor/python-workshop/tree/master/materials/03_loops)
 
