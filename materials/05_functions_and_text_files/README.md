@@ -11,6 +11,7 @@
 3. Funkce, zabudovane
 4. Funkce, definovane
 5. Textove soubory
+6. Name == '\_\_main\_\_'
 ---
 
 <details>
@@ -20,8 +21,9 @@
   - [Repl.it](https://repl.it/)
   - [Engeto.com](https://engeto.com/cs/)
   - [Python Academy, Git](https://engeto.com/cs/kurz/git-zaklady-pro-uzivatele/lekce)
-  - [Python Academy, zaciname!](https://engeto.com/cs/kurz/python-academy/studium/SpmtH-mVRY6zPL9alhruMQ/home-set-up/basics-of-command-line)
   - [Python, dokumentace zabudovanych funkci](https://docs.python.org/3/library/functions.html)
+  - [Predpis, if \_\_name\_\_ == '\_\_main\_\_'](https://www.geeksforgeeks.org/what-does-the-if-__name__-__main__-do/)
+  - [Python Academy, zaciname!](https://engeto.com/cs/kurz/python-academy/studium/SpmtH-mVRY6zPL9alhruMQ/home-set-up/basics-of-command-line)
 
 </details>
 
