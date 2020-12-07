@@ -22,7 +22,7 @@
   - [\_\_init\_\_.py](https://pythontips.com/2013/07/28/what-is-__init__-py/)
   - [Walrus operator, dokumentace](https://realpython.com/lessons/assignment-expressions/)
   - [Python.org, hledani modulu](https://docs.python.org/3/tutorial/modules.html#the-module-search-path)
-  - [Predpis, if \_\_name\_\_ == '__main__'](https://www.geeksforgeeks.org/what-does-the-if-__name__-__main__-do/)
+  - [Predpis, if \_\_name\_\_ == '\_\_main\_\_'](https://www.geeksforgeeks.org/what-does-the-if-__name__-__main__-do/)
   - [Pycharm importing](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html)
 
 </details>
@@ -53,8 +53,6 @@
    2. Pomocna promenna `tajenka` (podtrzitka misto pismen)
    3. Pomocna promenna `zivoty` (hodnota = `7`)
    4. Pomocna promenna `hra_probiha` (hodnota = `True`)
-
-   <br />
    ```python
    #!/usr/bin/python3
 
@@ -75,8 +73,6 @@
    #### 🔚 Kdy hra konci
    1. Dokud ma hrac v promenne `zivoty` hodnotu vetsi jak `0`
    2. Nasledne zastavime prubeh pomoci `hra_probiha`
-
-   <br />
    ```python
    while hra_probiha and zivoty > 0:
        ...
@@ -92,8 +88,6 @@
    1. Vypisu stav hry
    2. Necham hrace zadat pismeno/slovo (promenna `hadani`)
    3. Sestavime vhodne podminky
-
-   <br />
    ```python
    print(f"TAJENKA: {' '.join(tajenka)}, ZIVOTY: {zivoty}")
    hadani = input("Hadej pismeno nebo cele slovo:").lower()
@@ -192,7 +186,7 @@
    2. `from pprint import *` - nahrajeme cely modul, pouziti `funkce`
    3. `from pprint import pprint` - nahraje pouze vybranou funkci (`funkce`)
    4. `as` - doplneni aliasu, pouziti `from pprint import pprint as pp` (`pp`)
-   
+
    #### 📽 Hledani modul
    1. Interpret uvidi oznameni o nahravani modulu (pr. `import`)
    2. Prohleda zabudovane moduly: `sys.builtin_module_names`
@@ -224,7 +218,6 @@
 
    SLOVA = ["obesenec", "autobus", "klavesnice", "nedele"]
    ```
-   <br />
    2. Vybereme vhodnou funkci pro selekci nahodne udaje ze sekvence dat:
    ```python
    slovo = random.choice(SLOVA)
