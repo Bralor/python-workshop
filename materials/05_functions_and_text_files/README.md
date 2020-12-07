@@ -4,13 +4,14 @@
   <img alt="engeto-logo" width="100px" src="https://engeto.cz/wp-content/uploads/2019/01/engeto-square.png" />
 </p>
 
-## 4⃣ Python workshop
-### 🗒  Obsah lekc
+## 5⃣ Python workshop
+### 🗒  Obsah lekce
 1. Uzitecne odkazy
 2. Ukazka ulohy
 3. Funkce, zabudovane
 4. Funkce, definovane
 5. Textove soubory
+---
 
 <details>
   <summary>☝  Uzitecne odkazy</summary>
@@ -31,7 +32,7 @@
 
   1. ✌  [Stahnete si cely repozitar jako **zip**](https://github.com/Bralor/python-workshop/archive/mh-dev.zip)
   2. 💪 Presunte se ke stazenemu souboru
-  3. 🙏 Spustte soubor **materials/04_functions_and_text_files/hangman.py** v PyCharm
+  3. 🙏 Spustte soubor **materials/05_functions_and_text_files/obesenec.py** v PyCharm
   4. 🐍 Spustte program pomoci klaves **ctrl+shift+F10**
   5. 🎥 Zkousejte!
 
@@ -62,6 +63,9 @@
 
 <details>
   <summary>🔥 Funkce, uzivatelem definovane</summary>
+
+<details>
+  <summary>🤦 Obecne informace</summary>
 
   #### ☝ K zapamatovani
   - neni soucasti standartni knihovny
@@ -109,6 +113,51 @@
   3. f-string, volani funkce
   4. Idealne pouzit `sum` funkci 😏
 ---
+
+</details>
+
+<details>
+   <summary> ⌚ Aktualni stav hry</summary>
+
+   #### 📔 Prvni funkce
+   1. Vytvorime funkci `stav_hry`
+   2. Funkce bude mit 2 parametry: `tajenka`, `zivoty`
+   3. Funkce bude "cistit" vystup
+   4. Kreslit sibenici
+   5. Zobrazovat aktualni stav hry
+   6. Spustime ji na vhodnych mistech
+   ```python
+   def stav_hry(tajenka: list, zivoty: int) -> None:
+       os.system("clear")
+       print(figurka.hangman[7 - zivoty])
+       print(f"TAJENKA: {' '.join(tajenka)}, ZIVOTY: {zivoty}")
+
+
+   stav_hry(tajenka, zivoty)
+   ```
+</details>
+
+<details>
+   <summary> 🏁 Kontrola hracova hadani</summary>
+
+   #### 📔 Druha funkce
+   1. Vytvorime funkci `zkontroluj_tajenku`
+   2. Funkce bude mit 3 parametry: `pismeno`, `slovo`, `tajenka`
+   3. Funkce bude kontrolovat pismeno po pismeno v tajnem slove, prip.
+   prepisovat puvodni `tajenka`
+   4. Funkce muze ukoncit hru na zaklade nuloveho vyskytu `_` v `tajenka`
+   ```python
+   def zkontroluj_tajenku(pismeno, slovo, tajenka) -> bool:
+       for index, pismeno in enumerate(slovo):
+           if pismeno == hadani:
+               tajenka[index] = hadani
+       return False if "_" not in tajenka else True
+
+
+   hra_probiha = zkontroluj_tajenku(hadani, slovo, tajenka)
+   ```
+
+</details>
 
 </details>
 
@@ -169,9 +218,6 @@
   ```
 
 </details>
-
-</details>
-
 
 </details>
 
