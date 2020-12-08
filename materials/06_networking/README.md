@@ -8,7 +8,10 @@
 ### 🗒  Obsah lekc
 1. Uzitecne odkazy
 2. Ukazka ulohy
-3. Modul socket
+3. Networking, pojmy
+4. Server-klient, pripojeni
+5. Server-klient, pokracovani
+6. Server-klient, komunikace
 
 ---
 
@@ -38,7 +41,7 @@
 ---
 
 <details>
-  <summary>🕸 Networking</summary>
+  <summary>🕸 Networking, pojmy</summary>
 
   #### 📥 Sockety
   Jsou to koncove body obousmerneho komunikacniho kanalu mezi klientem
@@ -92,7 +95,7 @@
 ---
 
 <details>
-  <summary>🌎 Sockety, uvod</summary>
+  <summary>🌎 Server-klient, pripojeni</summary>
 
   #### 🔁 TCP protokol
   1. **TCP protokol** - spolehlive doruceni, garance poradi paketu, obousmerne
@@ -147,7 +150,7 @@
 
 ---
 <details>
-  <summary>💼 Socket, pokracovani</summary>
+  <summary>💼 Server-klient, pokracovani</summary>
   
   #### 💻 Upravy serveru
   1. Nahrajeme modul `select`, ten slouzi pro systemova volani Unixu. Ma 3 parametry
@@ -209,7 +212,7 @@
 ---
 
 <details>
-   <summary>✍ Psani zprav</summary>
+   <summary>✍  Server-klient, komunikace</summary>
 
   #### 💻 Strana serveru
   1. Napiseme funkci pro zpracovani prijatych zprav `receive_message`
