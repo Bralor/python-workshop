@@ -1,4 +1,4 @@
-➡ [vratit se ke ctvrte casti](https://github.com/Bralor/python-workshop/tree/master/materials/05_functions_and_text_files)
+➡ [vratit se k pate casti](https://github.com/Bralor/python-workshop/tree/master/materials/05_functions_and_text_files)
 
 <p align="center">
   <img alt="engeto-logo" width="100px" src="https://engeto.cz/wp-content/uploads/2019/01/engeto-square.png" />
@@ -314,4 +314,3 @@
 
 ---
 
-➡ [pokracovat k seste casti]()
