@@ -35,6 +35,7 @@ The best place is the official website
 4. [Loops](https://github.com/Bralor/python-workshop/tree/master/materials/03_loops)
 5. [Importing](https://github.com/Bralor/python-workshop/tree/master/materials/04_importing)
 6. [Functions & text files](https://github.com/Bralor/python-workshop/tree/master/materials/05_functions_and_text_files)
+7. [Networking](https://github.com/Bralor/python-workshop/tree/master/materials/06_networking)
 ---
 
 ### 🔝 What you need
