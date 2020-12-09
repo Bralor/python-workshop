@@ -286,3 +286,5 @@
 
 ---
 
+➡ [vratit se k dalsi casti](https://github.com/Bralor/python-workshop/tree/master/materials/06_networking)
+
