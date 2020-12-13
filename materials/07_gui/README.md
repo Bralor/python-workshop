@@ -5,14 +5,11 @@
 </p>
 
 ## 7⃣ Python workshop
-### 🗒  Obsah leke
+### 🗒  Obsah lekce
 1. Uzitecne odkazy
 2. Ukazka ulohy
-3. Networking, pojmy
-4. Server-klient, pripojeni
-5. Server-klient, pokracovani
-6. Server-klient, komunikace
-
+3. Modul tkinter
+4. Uvodni cast
 ---
 
 <details>
@@ -20,7 +17,7 @@
 
   #### 🗒 Dulezite odkazy
   - [Python, dokumentace zabudovanych funkci](https://docs.python.org/3/library/functions.html)
-  - [Modul socket](https://docs.python.org/3/library/socket.html?highlight=socket#socket.socket.listen)
+  - [Modul tkinter](https://docs.python.org/3/library/tkinter.html)
 
 </details>
 
@@ -41,4 +38,34 @@
 ---
 
 <details>
-  <summary>🕸 Networking, pojmy</summary>
+   <summary>📺 Uvodni sekce</summary>
+
+   #### 🆕 Zaciname!
+   1. Z modulu `tkinter` importujeme vsechno
+   2. Nejprve vytvorime instanci tridy `Tk`
+   3. Nachystame objekt pro nase nove okno `root`
+   4. Vytvorime widget se stitkem
+   5. Pomoci metody `pack()` nastavime zobrazeni widgetu
+   6. Pojmenujeme okno s metodou `wm_title()`
+   7. Vykreslime okno s `mainloop()`
+
+----
+
+<details>
+   <summary>👇 Nas zapis 👇</summary>
+   ```python
+   from tkinter import *
+
+   root = Tk()
+
+   my_label = Label(root, text="Kalkulacka!")
+   my_label.pack()
+
+   root.wm_title("calculator window")
+   root.mainloop()
+   ```
+
+</details>
+
+---
+
