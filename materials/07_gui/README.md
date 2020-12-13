@@ -49,10 +49,12 @@
    6. Pojmenujeme okno s metodou `wm_title()`
    7. Vykreslime okno s `mainloop()`
 
-----
+---
 
 <details>
    <summary>👇 Nas zapis 👇</summary>
+
+   #### 📂 calculator.py
    ```python
    from tkinter import *
 
