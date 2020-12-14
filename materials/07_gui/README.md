@@ -37,8 +37,7 @@
 
   1. ✌  [Stahnete si cely repozitar jako **zip**](https://github.com/Bralor/python-workshop/archive/mh-dev.zip)
   2. 💪 Presunte se ke stazenemu souboru
-  3. 🙏 Spustte soubor **materials/06_networking/server.py** v PyCharm
-  3. 💅 Spustte soubor **materials/06_networking/client.py** v PyCharm
+  3. 🙏 Spustte soubor **materials/07_gui/calculator.py** v PyCharm
   4. 🐍 Spustte program pomoci klaves **ctrl+shift+F10**
   5. 🎥 Zkousejte!
 
