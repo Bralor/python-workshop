@@ -22,8 +22,11 @@
   <summary>☝  Uzitecne odkazy</summary>
 
   #### 🗒 Dulezite odkazy
-  - [Python, dokumentace zabudovanych funkci](https://docs.python.org/3/library/functions.html)
+  - [Color hex](https://www.color-hex.com/)
   - [Modul tkinter](https://docs.python.org/3/library/tkinter.html)
+  - [Alternative option: PyQt5](https://www.learnpyqt.com/)
+  - [Anonumous (lambda) functions](https://pythonguides.com/python-anonymous-function/)
+  - [Python, dokumentace zabudovanych funkci](https://docs.python.org/3/library/functions.html)
 
 </details>
 
