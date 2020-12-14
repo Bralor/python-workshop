@@ -139,6 +139,8 @@
 <!--Konec treti casti-->
 </details>
 
+</details>
+
 ---
 
 <details>
