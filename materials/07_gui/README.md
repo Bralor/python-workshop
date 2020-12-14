@@ -295,6 +295,8 @@
 <!--Konec seste casti-->
 </details>
 
+</details>
+
 ---
 
 <details>
