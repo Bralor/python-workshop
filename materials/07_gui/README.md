@@ -8,16 +8,25 @@
 ### 🗒  Obsah lekce
 1. Uzitecne odkazy
 2. Ukazka ulohy
-3. Modul tkinter
-4. Uvodni cast
+3. Modul tk interface
+4. Vice poli
+5. Vlastni tlacitko
+6. Vstupy & vystupy
+7. Tlacitka
+8. Validni zapis
+9. Scitani
+10. Doplneni zapisu
 ---
 
 <details>
   <summary>☝  Uzitecne odkazy</summary>
 
   #### 🗒 Dulezite odkazy
-  - [Python, dokumentace zabudovanych funkci](https://docs.python.org/3/library/functions.html)
+  - [Color hex](https://www.color-hex.com/)
   - [Modul tkinter](https://docs.python.org/3/library/tkinter.html)
+  - [Alternative option: PyQt5](https://www.learnpyqt.com/)
+  - [Anonumous (lambda) functions](https://pythonguides.com/python-anonymous-function/)
+  - [Python, dokumentace zabudovanych funkci](https://docs.python.org/3/library/functions.html)
 
 </details>
 
@@ -38,7 +47,7 @@
 ---
 
 <details>
-   <summary>📺 Modul tkinter</summary>
+   <summary>📺 Modul tk interface</summary>
 
    #### 🆕 Zaciname!
    1. Importujeme modul `tkinter`
@@ -66,6 +75,7 @@
 
    gui.mainloop()
    ```
+   [**🔝 Vyzkousej sam 🔝**](https://repl.it/@JustBraloR/sample1#main.py)
 
 </details>
 <!--Konec uvodni sekce-->
@@ -99,9 +109,10 @@
 
    gui.mainloop()
    ```
-<!--Konec druhe casti-->
-</details>
+   [**🔝 Vyzkousej sam 🔝**](https://repl.it/@JustBraloR/sample2#main.py)
 
+</details>
+<!--Konec druhe casti-->
 </details>
 
 ---
@@ -136,15 +147,16 @@
 
    gui.mainloop()
    ```
-<!--Konec treti casti-->
-</details>
+   [**🔝 Vyzkousej sam 🔝**](https://repl.it/@JustBraloR/sample3#main.py)
 
+</details>
+<!--Konec treti casti-->
 </details>
 
 ---
 
 <details>
-   <summary>💻 Kombinace vstupu & vystupu</summary>
+   <summary>💻 Vstupy & vystupy</summary>
 
    #### ⛓ Propojeni
    1. Vytvorime instanci tridy `Entry` pro vstupni pole
@@ -178,15 +190,16 @@
 
    gui.mainloop()
    ```
-<!--Konec ctvrte casti-->
-</details>
+   [**🔝 Vyzkousej sam 🔝**](https://repl.it/@JustBraloR/sample4#main.py)
 
+</details>
+<!--Konec ctvrte casti-->
 </details>
 
 ---
 
 <details>
-   <summary>✌ Funkcni tlacitka</summary>
+   <summary>✌ Tlacitka</summary>
 
    #### 🖱 Vytvorime sekci s tlacitky
    1. Definujeme funkci `on_click` s jednim parametrem `number`
@@ -241,15 +254,16 @@
 
    gui.mainloop()
    ```
-<!--Konec pate casti-->
-</details>
+   [**🔝 Vyzkousej sam 🔝**](https://repl.it/@JustBraloR/sample5#main.py)
 
+</details>
+<!--Konec pate casti-->
 </details>
 
 ---
 
 <details>
-   <summary>✍ Radny zapis</summary>
+   <summary>✍  Validni zapis</summary>
 
    #### 📝 Jak na to
    1. Vyuzijeme tridu `StringVar`, ta slouzi jako promenna pro uchovani hodnot
@@ -290,17 +304,17 @@
    button_3.grid(row=1, column=2)
 
    gui.mainloop()
-
    ```
-<!--Konec seste casti-->
-</details>
+   [**🔝 Vyzkousej sam 🔝**](https://repl.it/@JustBraloR/sample6#main.py)
 
+</details>
+<!--Konec seste casti-->
 </details>
 
 ---
 
 <details>
-   <summary>➕ Aritmeticke operace</summary>
+   <summary>➕ Scitani</summary>
     
    #### 💼 Chybejici operace
    1. Pridame ctvrte tlacitko, pro scitani `+`
@@ -362,10 +376,13 @@
 ---
 
 <details>
-   <summary>🗜 Doplnime</summary>
+   <summary>🗜 Doplneni zapisu</summary>
 
    #### ✍ Opakovani matka...
-   Podle predchozich instrukci doplnime zbytek kalkulacky
+   1. Chybejici tlacitka cisel
+   2. Chybejici tlacitka operaci
+   3. Chybejici tlacitko pro mazani vstupu `CE`
+   4. Rozmery tlacitek
 
 <details>
    <summary>👇 Nas zapis 👇</summary>
@@ -446,8 +463,10 @@
 
    gui.mainloop()
    ```
-</details>
+   [**🔝 Vyzkousej sam 🔝**](https://repl.it/@JustBraloR/sample7#main.py)
 
+</details>
+<!--Konec sedme casti-->
 </details>
 
 ---
